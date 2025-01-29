@@ -1,9 +1,10 @@
 {
   "name": "display-angular-version",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "prebuild": "npm --no-git-tag-version version ${npm_config_app_version}",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

@@ -18,7 +18,7 @@ ng new <app-name>
 
 ## Project configuration
 
-Into [tsconfig.js](tsconfig.json) file add the below configuration:
+Into [tsconfig.json](tsconfig.json) file add the below configuration:
 
 ```json
 {
@@ -36,7 +36,7 @@ into our components.
 ## Increment app version
 
 A nice feature, that allow to auto increment the application version in the
-build phase can be made with the configuration of the `prebuild` phase:
+build phase can be made with the configuration of the `prebuild` phase into [package.json](package.json) file:
 
 ```json
 {

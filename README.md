@@ -50,6 +50,20 @@ build phase can be made with the configuration of the `prebuild` phase into [pac
 }
 ```
 
+For Windows users, we need to define variable as below:
+```json
+{
+  ...
+  "scripts": {
+    ...
+    "prebuild": "npm --no-git-tag-version version %npm_config_app_version%",
+    "build": "ng build",
+    ...
+  }
+}
+```
+
+
 To do this, we use `npm version` command, with option `--no-git-tag-version`, to avoid Git tag versioning.
 The `version` command, need of parameter that indicate the number version to increment <major.minor.patch>, for example:
 

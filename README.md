@@ -96,19 +96,19 @@ the appVarsion variable into HTML page:
 Build application and increment major version number.
 
 ```shell
-npm run build --app-version-number=major
+npm run build --app-version=major
 ```
 
 Build application and increment minor version number.
 
 ```shell
-npm run build --app-version-number=minor
+npm run build --app-version=minor
 ```
 
 Build application and increment patch version number.
 
 ```shell
-npm run build --app-version-number=patch
+npm run build --app-version=patch
 ```
 
 ## Start locally

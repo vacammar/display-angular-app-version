@@ -78,7 +78,9 @@ For example if we have a version `0
 .0.0` of our application, and we need to build application to release new patch,
 we can run build as fallow:
 
-`npm run build --app-version=patch`
+```shell
+npm run build --app-version=patch
+```
 
 this update the version attribute of [package.json](package.json) to `0.0.1`.
 
@@ -92,7 +94,9 @@ import packageJson from '../../package.json';
 
 done this, we can define `appVersion` variable into component:
 
-`appVersion: string = packageJson.version;`
+```typescript
+appVersion: string = packageJson.version;
+```
 
 and initialize with `packageJson.version`, ok now we are ready to use
 the appVarsion variable into HTML page:

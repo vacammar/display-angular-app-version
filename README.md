@@ -1,6 +1,6 @@
 # Increment and display Angular app version
 
-Recently at work, was asked me how we can auto increment the Angular application version number and how we can display this
+Recently at work, was asked me: how we can auto increment the Angular application version number and how we can display this
 into application.
 After a few second to think 🤔, I concreted that I've never done it before, and I told me, which best occasion to write a few line of code 👨🏽‍💻
 and publish into my GitHub repo 🤓.
